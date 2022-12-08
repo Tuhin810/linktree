@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(20,20,20);
+    margin: 0;
+}
+#menu{
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+}
+
+#menu-items{
+    color: aliceblue;
+    margin-left: clamp(4rem, 20vw, 48rem);
+    position: relative;
+    z-index: 2;
+}
